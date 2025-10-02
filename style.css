@@ -1,4 +1,3 @@
-/* General Page Styles */
 body {
     margin-left: 15%;
     margin-right: 15%;
@@ -8,11 +7,12 @@ body {
 
 /* Header / Golden Banner */
 header {
-    background-color: gold;      /* Golden color */
+    background-color: gold;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
 /* Headings */
@@ -23,8 +23,8 @@ h1, h2 {
     margin-top: 10px;
 }
 
-/* Images */
-img {
+/* Main Snow White image */
+.main-image {
     border: 2px solid #333;
     width: 25%;
     float: right;
@@ -39,6 +39,7 @@ img {
     float: left;
     margin-right: 5px;
     border-radius: 8px;
+    border: 2px solid #333;
 }
 
 /* Clear floats */
@@ -46,6 +47,12 @@ img {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Paragraph text */
+p {
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* Links */
