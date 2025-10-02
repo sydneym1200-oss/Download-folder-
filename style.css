@@ -6,11 +6,21 @@ body {
     font-family: "Lucida Sans Unicode", sans-serif;
 }
 
+/* Header / Golden Banner */
+header {
+    background-color: gold;      /* Golden color */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 /* Headings */
-h2 {
+h1, h2 {
     font-family: Verdana, sans-serif;
     text-align: center;
     color: teal;
+    margin-top: 10px;
 }
 
 /* Images */
@@ -19,6 +29,7 @@ img {
     width: 25%;
     float: right;
     margin: 15px;
+    border-radius: 8px;
 }
 
 /* Dwarf images on Main Page */
@@ -26,5 +37,24 @@ img {
     width: 12%;
     height: 200px;
     float: left;
-    margin-right: 1px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Links */
+a {
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
